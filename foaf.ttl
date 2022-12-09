@@ -1,13 +1,13 @@
 @prefix admin: <http://webns.net/mvcb/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1> a foaf:PersonalProfileDocument ;
+<https://raw.githubusercontent.com/viktor-meglenovski/VBS-FOAF/main/foaf.ttl> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
     admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
     foaf:maker <https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1#me> ;
     foaf:primaryTopic <https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1#me> .
 
-<https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1#me> a foaf:Person ;
+<https://raw.githubusercontent.com/viktor-meglenovski/VBS-FOAF/main/foaf.ttl#me> a foaf:Person ;
     foaf:family_name "Meglenovski" ;
     foaf:givenname "Viktor" ;
     foaf:homepage <https://github.com/viktor-meglenovski> ;
