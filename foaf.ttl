@@ -1,0 +1,28 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/viktor-meglenovski/VBS-FOAF/main/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1#me> ;
+    foaf:primaryTopic <https://www.dropbox.com/s/r1tw9a0kvnunm6o/foaf.ttl?dl=1#me> .
+
+<https://raw.githubusercontent.com/viktor-meglenovski/VBS-FOAF/main/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Meglenovski" ;
+    foaf:givenname "Viktor" ;
+    foaf:homepage <https://github.com/viktor-meglenovski> ;
+    foaf:knows [ a foaf:Person ;
+            foaf:mbox_sha1sum "985593a51b7da1bc8bbe20bbdbd2baaa4df4b29b"  ;
+            foaf:name "Milosh Jovanovikj"  ;
+            rdfs:seeAlso rdf:resource="http://mjovanovik.com/foaf.ttl" ],
+        [ a foaf:Person ;
+            foaf:mbox_sha1sum "12142c68b0cd6c130441d8727866748a481c2e2e" ;
+            foaf:name "Hristina Miteva" ],
+        [ a foaf:Person ;
+            foaf:mbox_sha1sum "4c256883156bb522b0d24bfb04d25a12da60f95e" ;
+            foaf:name "Bojan Dukovski" ] ;
+    foaf:mbox_sha1sum "5d081da9663cb04d0f06342ed34bd85dba65af23" ;
+    foaf:name "Viktor Meglenovski" ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> .
