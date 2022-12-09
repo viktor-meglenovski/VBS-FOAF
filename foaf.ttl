@@ -16,7 +16,7 @@
     foaf:knows [ a foaf:Person ;
             foaf:mbox_sha1sum "985593a51b7da1bc8bbe20bbdbd2baaa4df4b29b"  ;
             foaf:name "Milosh Jovanovikj"  ;
-            rdfs:seeAlso rdf:resource="http://mjovanovik.com/foaf.ttl" ],
+            rdfs:seeAlso <http://mjovanovik.com/foaf.ttl> ],
         [ a foaf:Person ;
             foaf:mbox_sha1sum "12142c68b0cd6c130441d8727866748a481c2e2e" ;
             foaf:name "Hristina Miteva" ],
