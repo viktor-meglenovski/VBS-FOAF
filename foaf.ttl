@@ -12,14 +12,12 @@
     foaf:givenname "Viktor" ;
     foaf:homepage <https://github.com/viktor-meglenovski> ;
     foaf:knows [ a foaf:Person ;
-            foaf:mbox_sha1sum "3093d920ba33dc49bc7903dd5873516adac52a94" ;
-            foaf:name "Viktor Nikolovski" ],
+            foaf:mbox_sha1sum "985593a51b7da1bc8bbe20bbdbd2baaa4df4b29b"  ;
+            foaf:name "Milosh Jovanovikj"  ;
+            rdfs:seeAlso rdf:resource="http://mjovanovik.com/foaf.ttl" ],
         [ a foaf:Person ;
             foaf:mbox_sha1sum "12142c68b0cd6c130441d8727866748a481c2e2e" ;
             foaf:name "Hristina Miteva" ],
-        [ a foaf:Person ;
-            foaf:mbox_sha1sum "3cb28e41b32734281146b5b26bde311bbc2c754a" ;
-            foaf:name "Martin Angjelevski" ],
         [ a foaf:Person ;
             foaf:mbox_sha1sum "4c256883156bb522b0d24bfb04d25a12da60f95e" ;
             foaf:name "Bojan Dukovski" ] ;
